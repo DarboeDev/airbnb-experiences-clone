@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    padding: 22px 0 22px 30px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+.logo{
+    max-width: 85.5px;
+    height: 26px;
+}
+.hero{
+    padding: 1rem 0 ;
+}
+.hero-image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.photogrid{
+    width: 330px;
+}
+.hero-text{
+    width: 100%;
+    text-align: left;
+    padding: 1rem 0 0 1rem;
+}
+.hero-text h1{
+    font-size: 2rem;
+    letter-spacing: .5px;
+}
+.hero-text p{
+    font-size: 15px;
+    width: 310px;
+    height: 56px;
+    color: black;
+}
+
+.card-image{
+    width: 160px;
+    border-radius: 10px;
+}
+.rating{
+    display: flex;
+    gap: .2rem;
+    align-items: center;
+    width: 150px;
+    font-size: 14px;
+}
+.star{
+    width: 14px;
+    height: 13px;
+}
+.rating p span{
+color: rgb(145, 145, 145);
+}
+.info{
+    width: 160px;
+    font-size: 11px;
+    font-weight: 500;
+}
+.price{
+    width: 160px;
+    font-size: 12px;
+}
+.price p span{
+    font-weight: 700;
+}
+.cards-section{
+    position:relative;
+    display: flex;
+    padding-left: 1rem;
+    gap: 1rem;
+    overflow:scroll;
+}
+.badge{
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    top:10px;
+    margin-left:10px;
+    background:white;
+    width:90px;
+    align-items:center;
+    height:25px;
+    border-radius:5px;
+    font-weight:bold;
+}
